@@ -1,0 +1,578 @@
+Started GET "/my_portfolio" for ::1 at 2019-10-11 10:11:17 +0300
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  
+ActionController::RoutingError (No route matches [GET] "/my_portfolio"):
+  
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-11 10:11:20 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/railties-6.0.0/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.0ms | Allocations: 196)
+Completed 200 OK in 10ms (Views: 7.8ms | ActiveRecord: 0.0ms | Allocations: 1265)
+
+
+Started GET "/" for ::1 at 2019-10-11 10:13:21 +0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 200)
+[Webpacker] Compiling…
+[Webpacker] Compiled all packs in /home/deniz/photo/public/packs
+Completed 200 OK in 2939ms (Views: 2933.4ms | ActiveRecord: 0.0ms | Allocations: 1256227)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20191011071531)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "confirmation_token" varchar, "confirmed_at" datetime, "confirmation_sent_at" datetime, "unconfirmed_email" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  [1m[36mprimary::SchemaMigration Create (0.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20191011071531"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-10-11 07:20:39.144054"], ["updated_at", "2019-10-11 07:20:39.144054"]]
+  [1m[35m (2.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+Started GET "/" for ::1 at 2019-10-11 10:20:47 +0300
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 200)
+Completed 200 OK in 971ms (Views: 963.3ms | ActiveRecord: 0.0ms | Allocations: 1258788)
+
+
+Started GET "/" for ::1 at 2019-10-11 10:21:38 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by WelcomeController#index as HTML
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.0ms | Allocations: 2134)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-11 10:21:38 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-bootstrap-views-1.1.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-bootstrap-views-1.1.0/app/views/devise/shared/_links.html.erb (Duration: 2.3ms | Allocations: 865)
+  Rendered /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-bootstrap-views-1.1.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 13.8ms | Allocations: 4089)
+Completed 200 OK in 47ms (Views: 21.7ms | ActiveRecord: 1.4ms | Allocations: 19213)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-11 10:22:43 +0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendering /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-bootstrap-views-1.1.0/app/views/devise/sessions/new.html.erb within layouts/application
+  Rendered /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-bootstrap-views-1.1.0/app/views/devise/shared/_links.html.erb (Duration: 0.4ms | Allocations: 260)
+  Rendered /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-bootstrap-views-1.1.0/app/views/devise/sessions/new.html.erb within layouts/application (Duration: 2.1ms | Allocations: 1216)
+Completed 200 OK in 20ms (Views: 7.3ms | ActiveRecord: 0.9ms | Allocations: 14077)
+
+
+Started GET "/" for ::1 at 2019-10-11 10:22:47 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 5092)
+
+
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+Started GET "/" for ::1 at 2019-10-11 10:25:15 +0300
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.7ms | Allocations: 206)
+Completed 500 Internal Server Error in 937ms (ActiveRecord: 0.0ms | Allocations: 1340647)
+
+
+  
+ActionView::Template::Error (The asset "apple-touch-icon-144x144-precomposed.png" is not present in the asset pipeline.):
+    11: 
+    12:     <!-- For third-generation iPad with high-resolution Retina display: -->
+    13:     <!-- Size should be 144 x 144 pixels -->
+    14:     <%= favicon_link_tag 'apple-touch-icon-144x144-precomposed.png', :rel => 'apple-touch-icon-precomposed', :type => 'image/png', :sizes => '144x144' %>
+    15: 
+    16:     <!-- For iPhone with high-resolution Retina display: -->
+    17:     <!-- Size should be 114 x 114 pixels -->
+  
+app/views/layouts/application.html.erb:14
+Started GET "/" for ::1 at 2019-10-11 10:25:39 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 78)
+Completed 200 OK in 119ms (Views: 116.1ms | ActiveRecord: 0.0ms | Allocations: 36384)
+
+
+Started GET "/" for ::1 at 2019-10-11 10:26:48 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 5)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 6194)
+
+
+  
+ActionView::Template::Error (couldn't find file 'devise_bootstrap_views' with type 'text/css'
+Checked in these paths: 
+  /home/deniz/photo/app/assets/config
+  /home/deniz/photo/app/assets/images
+  /home/deniz/photo/app/assets/javascripts
+  /home/deniz/photo/app/assets/stylesheets
+  /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/jquery-rails-4.3.5/vendor/assets/javascripts
+  /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/twitter-bootstrap-rails-3.2.2/app/assets/fonts
+  /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/twitter-bootstrap-rails-3.2.2/app/assets/javascripts
+  /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/twitter-bootstrap-rails-3.2.2/app/assets/stylesheets
+  /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/twitter-bootstrap-rails-3.2.2/vendor/assets/stylesheets
+  /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actioncable-6.0.0/app/assets/javascripts
+  /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/activestorage-6.0.0/app/assets/javascripts
+  /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/actionview-6.0.0/lib/assets/compiled
+  /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/turbolinks-source-5.2.0/lib/assets/javascripts
+  /home/deniz/photo/node_modules):
+     7:     <title><%= content_for?(:title) ? yield(:title) : "Photo" %></title>
+     8:     <%= csrf_meta_tags %>
+     9: 
+    10:     <%= stylesheet_link_tag "application", :media => "all" %>
+    11: 
+    12: 
+    13:     <%= javascript_include_tag "application" %>
+  
+app/assets/stylesheets/application.css:12
+app/views/layouts/application.html.erb:10
+Started GET "/users/sign_in" for ::1 at 2019-10-11 10:27:03 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.4ms | Allocations: 864)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 13.9ms | Allocations: 7926)
+Completed 200 OK in 71ms (Views: 55.0ms | ActiveRecord: 0.6ms | Allocations: 51835)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-11 10:27:09 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 2.1ms | Allocations: 226)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 15.8ms | Allocations: 1628)
+Completed 200 OK in 88ms (Views: 83.6ms | ActiveRecord: 0.0ms | Allocations: 34730)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-11 11:06:56 +0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.1ms | Allocations: 644)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 4.6ms | Allocations: 2113)
+Completed 200 OK in 42ms (Views: 39.8ms | ActiveRecord: 0.0ms | Allocations: 36321)
+
+
+Started GET "/" for ::1 at 2019-10-11 11:07:02 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 79)
+Completed 200 OK in 37ms (Views: 33.9ms | ActiveRecord: 0.0ms | Allocations: 32983)
+
+
+Started GET "/" for ::1 at 2019-10-11 11:07:37 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 145ms (Views: 142.8ms | ActiveRecord: 0.0ms | Allocations: 88595)
+
+
+Started GET "/" for ::1 at 2019-10-11 11:07:38 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.0ms | Allocations: 33666)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-11 11:08:00 +0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering devise/sessions/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 0.8ms | Allocations: 245)
+  Rendered devise/sessions/new.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1528)
+Completed 200 OK in 54ms (Views: 50.4ms | ActiveRecord: 0.0ms | Allocations: 36019)
+
+
+Started GET "/users/sign_up" for ::1 at 2019-10-11 11:08:13 +0300
+Processing by Devise::RegistrationsController#new as HTML
+  Rendering devise/registrations/new.html.erb within layouts/application
+  Rendered devise/shared/_links.html.erb (Duration: 1.0ms | Allocations: 175)
+  Rendered devise/registrations/new.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1129)
+Completed 200 OK in 50ms (Views: 46.6ms | ActiveRecord: 0.0ms | Allocations: 34685)
+
+
+Started POST "/users" for ::1 at 2019-10-11 11:08:17 +0300
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"authenticity_token"=>"DX/z3MVUOgcjt9anKpDt5b7nRX9tSBXIfdTuyRQk5znlGaap0iAeambKO28L9uLtp1uxqy8jP2e42IWTSLIdIg==", "user"=>{"email"=>"d@d.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mUser Exists? (0.1ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "d@d.com"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "confirmation_token", "confirmation_sent_at", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["email", "d@d.com"], ["encrypted_password", "$2a$11$rsMmOc0QPrswlC4T9vl52.d/I4ZlYPyeV57QXHp/N3umDyEDqCwpW"], ["confirmation_token", "SMxT1nnyWiX-8jxFM6i2"], ["confirmation_sent_at", "2019-10-11 08:08:17.543299"], ["created_at", "2019-10-11 08:08:17.543222"], ["updated_at", "2019-10-11 08:08:17.543222"]]
+  [1m[35m (11.2ms)[0m  [1m[36mcommit transaction[0m
+  Rendering /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.7.1/app/views/devise/mailer/confirmation_instructions.html.erb
+  Rendered /home/deniz/.rbenv/versions/2.6.3/lib/ruby/gems/2.6.0/gems/devise-4.7.1/app/views/devise/mailer/confirmation_instructions.html.erb (Duration: 1.0ms | Allocations: 1320)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 4.4ms
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 11.6ms | Allocations: 35706)
+
+
+  
+ActionView::Template::Error (Missing host to link to! Please provide the :host parameter, set default_url_options[:host], or set :only_path to true):
+    2: 
+    3: <p>You can confirm your account email through the link below:</p>
+    4: 
+    5: <p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>
+  
+actionpack (6.0.0) lib/action_dispatch/http/url.rb:63:in `full_url_for'
+actionpack (6.0.0) lib/action_dispatch/http/url.rb:53:in `url_for'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:336:in `block in <class:RouteSet>'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:831:in `url_for'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:272:in `call'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:213:in `call'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:329:in `block in define_url_helper'
+actionpack (6.0.0) lib/action_dispatch/routing/routes_proxy.rb:45:in `user_confirmation_url'
+actionpack (6.0.0) lib/action_dispatch/routing/routes_proxy.rb:48:in `public_send'
+actionpack (6.0.0) lib/action_dispatch/routing/routes_proxy.rb:48:in `method_missing'
+devise (4.7.1) lib/devise/controllers/url_helpers.rb:53:in `block (4 levels) in generate_helpers!'
+devise (4.7.1) app/views/devise/mailer/confirmation_instructions.html.erb:5
+actionview (6.0.0) lib/action_view/base.rb:274:in `_run'
+actionview (6.0.0) lib/action_view/template.rb:185:in `block in render'
+activesupport (6.0.0) lib/active_support/notifications.rb:182:in `instrument'
+actionview (6.0.0) lib/action_view/template.rb:386:in `instrument_render_template'
+actionview (6.0.0) lib/action_view/template.rb:183:in `render'
+actionview (6.0.0) lib/action_view/renderer/template_renderer.rb:59:in `block (2 levels) in render_template'
+actionview (6.0.0) lib/action_view/renderer/abstract_renderer.rb:89:in `block in instrument'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.0) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `instrument'
+actionview (6.0.0) lib/action_view/renderer/abstract_renderer.rb:88:in `instrument'
+actionview (6.0.0) lib/action_view/renderer/template_renderer.rb:58:in `block in render_template'
+actionview (6.0.0) lib/action_view/renderer/template_renderer.rb:66:in `render_with_layout'
+actionview (6.0.0) lib/action_view/renderer/template_renderer.rb:57:in `render_template'
+actionview (6.0.0) lib/action_view/renderer/template_renderer.rb:13:in `render'
+actionview (6.0.0) lib/action_view/renderer/renderer.rb:61:in `render_template_to_object'
+actionview (6.0.0) lib/action_view/renderer/renderer.rb:29:in `render_to_object'
+actionview (6.0.0) lib/action_view/rendering.rb:118:in `block in _render_template'
+actionview (6.0.0) lib/action_view/base.rb:304:in `in_rendering_context'
+actionview (6.0.0) lib/action_view/rendering.rb:117:in `_render_template'
+actionview (6.0.0) lib/action_view/rendering.rb:103:in `render_to_body'
+actionpack (6.0.0) lib/abstract_controller/rendering.rb:25:in `render'
+actionmailer (6.0.0) lib/action_mailer/base.rb:978:in `block in collect_responses_from_templates'
+actionmailer (6.0.0) lib/action_mailer/base.rb:975:in `each'
+actionmailer (6.0.0) lib/action_mailer/base.rb:975:in `each'
+actionmailer (6.0.0) lib/action_mailer/base.rb:975:in `map'
+actionmailer (6.0.0) lib/action_mailer/base.rb:975:in `collect_responses_from_templates'
+actionmailer (6.0.0) lib/action_mailer/base.rb:953:in `collect_responses'
+actionmailer (6.0.0) lib/action_mailer/base.rb:858:in `mail'
+devise (4.7.1) lib/devise/mailers/helpers.rb:19:in `devise_mail'
+devise (4.7.1) app/mailers/devise/mailer.rb:9:in `confirmation_instructions'
+actionpack (6.0.0) lib/abstract_controller/base.rb:196:in `process_action'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.0) lib/abstract_controller/base.rb:136:in `process'
+actionmailer (6.0.0) lib/action_mailer/rescuable.rb:25:in `block in process'
+actionmailer (6.0.0) lib/action_mailer/rescuable.rb:17:in `handle_exceptions'
+actionmailer (6.0.0) lib/action_mailer/rescuable.rb:24:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionmailer (6.0.0) lib/action_mailer/base.rb:637:in `block in process'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.0) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `instrument'
+actionmailer (6.0.0) lib/action_mailer/base.rb:636:in `process'
+actionmailer (6.0.0) lib/action_mailer/message_delivery.rb:123:in `block in processed_mailer'
+actionmailer (6.0.0) lib/action_mailer/message_delivery.rb:122:in `tap'
+actionmailer (6.0.0) lib/action_mailer/message_delivery.rb:122:in `processed_mailer'
+actionmailer (6.0.0) lib/action_mailer/message_delivery.rb:113:in `deliver_now'
+devise (4.7.1) lib/devise/models/authenticatable.rb:199:in `send_devise_notification'
+devise (4.7.1) lib/devise/models/confirmable.rb:121:in `send_confirmation_instructions'
+devise (4.7.1) lib/devise/models/confirmable.rb:183:in `send_on_create_confirmation_instructions'
+activesupport (6.0.0) lib/active_support/callbacks.rb:429:in `block in make_lambda'
+activesupport (6.0.0) lib/active_support/callbacks.rb:264:in `block in conditional'
+activesupport (6.0.0) lib/active_support/callbacks.rb:518:in `block in invoke_after'
+activesupport (6.0.0) lib/active_support/callbacks.rb:518:in `each'
+activesupport (6.0.0) lib/active_support/callbacks.rb:518:in `invoke_after'
+activesupport (6.0.0) lib/active_support/callbacks.rb:136:in `run_callbacks'
+activesupport (6.0.0) lib/active_support/callbacks.rb:827:in `_run_commit_callbacks'
+activerecord (6.0.0) lib/active_record/transactions.rb:339:in `committed!'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/transaction.rb:127:in `commit_records'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/transaction.rb:265:in `block in commit_transaction'
+/home/deniz/.rbenv/versions/2.6.3/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/transaction.rb:255:in `commit_transaction'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/transaction.rb:293:in `block in within_new_transaction'
+/home/deniz/.rbenv/versions/2.6.3/lib/ruby/2.6.0/monitor.rb:230:in `mon_synchronize'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/transaction.rb:278:in `within_new_transaction'
+activerecord (6.0.0) lib/active_record/connection_adapters/abstract/database_statements.rb:277:in `transaction'
+activerecord (6.0.0) lib/active_record/transactions.rb:212:in `transaction'
+activerecord (6.0.0) lib/active_record/transactions.rb:366:in `with_transaction_returning_status'
+activerecord (6.0.0) lib/active_record/transactions.rb:315:in `save'
+activerecord (6.0.0) lib/active_record/suppressor.rb:44:in `save'
+devise (4.7.1) app/controllers/devise/registrations_controller.rb:19:in `create'
+actionpack (6.0.0) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (6.0.0) lib/abstract_controller/base.rb:196:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (6.0.0) lib/active_support/callbacks.rb:135:in `run_callbacks'
+actionpack (6.0.0) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/instrumentation.rb:33:in `block in process_action'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `block in instrument'
+activesupport (6.0.0) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (6.0.0) lib/active_support/notifications.rb:180:in `instrument'
+actionpack (6.0.0) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (6.0.0) lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+activerecord (6.0.0) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (6.0.0) lib/abstract_controller/base.rb:136:in `process'
+actionview (6.0.0) lib/action_view/rendering.rb:39:in `process'
+actionpack (6.0.0) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (6.0.0) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:51:in `dispatch'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/mapper.rb:18:in `block in <class:Constraints>'
+actionpack (6.0.0) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:49:in `block in serve'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (6.0.0) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (6.0.0) lib/action_dispatch/routing/route_set.rb:837:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (6.0.0) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/cookies.rb:648:in `call'
+activerecord (6.0.0) lib/active_record/migration.rb:567:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.0) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.0) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.1) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.1) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.0) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+actionpack (6.0.0) lib/action_dispatch/middleware/host_authorization.rb:83:in `call'
+webpacker (4.0.7) lib/webpacker/dev_server_proxy.rb:29:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.0) lib/rails/engine.rb:526:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
+DEPRECATION WARNING: Initialization autoloaded the constant BadgeLabelHelper.
+
+Being able to do this is deprecated. Autoloading during initialization is going
+to be an error condition in future versions of Rails.
+
+Reloading does not reboot the application, and therefore code executed during
+initialization does not run again. So, if you reload BadgeLabelHelper, for example,
+the expected changes won't be reflected in that stale Module object.
+
+This autoloaded constant has been unloaded.
+
+Please, check the "Autoloading and Reloading Constants" guide for solutions.
+ (called from <main> at /home/deniz/photo/config/environment.rb:5)
